@@ -1,11 +1,4 @@
 export default {
-  fetch() {
-    return new Response("<h1>Hello from Worker!</h1>", {
-      headers: { "content-type": "text/html;charset=UTF-8" }
-    });
-  }
-}
-export default {
   async fetch(req) {
     const t0 = Date.now();
     // 假设你原来要 fetch 外部 API
