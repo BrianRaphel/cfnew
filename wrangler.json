@@ -1,15 +1,12 @@
 {
   "name": "cfnew",
   "main": "_worker.js",
-  "compatibility_date": "2025-12-29"
-}
-
+  "compatibility_date": "2025-12-29",
   "kv_namespaces": [
     {
       "binding": "KV",
       "id": "e262ac8e1e94475c978ca34b2e16fa7a",
-      
-
       "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
     }
   ]
+}
