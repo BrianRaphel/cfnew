@@ -3,13 +3,13 @@
   "main": "_worker.js",
   "compatibility_date": "2025-12-29"
 }
-  // Add this to your wrangler.jsonc
+
   "kv_namespaces": [
     {
       "binding": "KV",
       "id": "e262ac8e1e94475c978ca34b2e16fa7a",
       
-      // Optional: preview_id used when running `wrangler dev` for local dev
+
       "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
     }
   ]
