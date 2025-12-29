@@ -1,5 +1,2 @@
-{
-  "name": "cfnew",
-  "main": "_worker.js",
-  "compatibility_date": "2025-12-29"
-}
+// wrangler.json
+"name": "subscriptions",
